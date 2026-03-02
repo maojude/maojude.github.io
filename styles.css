@@ -21,18 +21,22 @@ a {
     display: flex;
     background: gray;
     flex-direction: row;
+    min-height: 130vh;
 }
+
+
 
 .left{
     width: 30%;
     background: #1F3A52;
-    height: 1500px;
     flex-shrink: 1;
     padding-right: 50px;
     padding-left: 50px;
     box-sizing: border-box;
     color: white;
 }
+
+
 
 .right{
     background: #FFFFFF;
@@ -182,10 +186,15 @@ hr{
     font-size: 18px;
     font-weight: 400;
     border: none;
+    margin-bottom: 30px;
 }
 
 .space{
-    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.last{
+    margin-bottom: 100px;
 }
 
 .timeline {
