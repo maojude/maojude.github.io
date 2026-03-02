@@ -21,7 +21,7 @@ a {
     display: flex;
     background: gray;
     flex-direction: row;
-    min-height: 130vh;
+    min-height: 100vh;
 }
 
 
