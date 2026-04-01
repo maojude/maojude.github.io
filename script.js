@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // ✅ TYPING EFFECT (SAFE)
   const nameElement = document.getElementById("name");
 
   if (nameElement) {
@@ -17,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     typeEffect();
   }
 
-  // ✅ TIMELINE HOVER (SAFE)
   const items = document.querySelectorAll(".timeline-item");
 
   if (items.length > 0) {
@@ -35,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // ✅ BACK TO TOP (SAFE)
   const topBtn = document.getElementById("topBtn");
 
   if (topBtn) {

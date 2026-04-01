@@ -283,6 +283,9 @@ hr {
     cursor: pointer;
     transition: 0.3s;
     z-index: 1000;
+    white-space: nowrap;
+    width: max-content;
+    line-height: 1;
 }
 
 #topBtn:hover {
