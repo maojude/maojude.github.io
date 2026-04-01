@@ -268,3 +268,23 @@ hr {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+#topBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1F3A52;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+#topBtn:hover {
+    background-color: #163043;
+}
