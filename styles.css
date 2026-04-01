@@ -1,136 +1,129 @@
-*{
+* {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: #0a1a2e;
+    padding: 40px 80px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-.header{
-    position: sticky;
-    top: 0;
-    padding: 10px 16px;
-    background: black;
-}
-
-.body{
+.body {
     display: flex;
-    background: gray;
     flex-direction: row;
+    max-width: 1080px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
     min-height: 100vh;
 }
 
-
-
-.left{
+.left {
     width: 30%;
     background: #1F3A52;
-    flex-shrink: 1;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
     box-sizing: border-box;
     color: white;
 }
 
-
-
-.right{
+.right {
     background: #FFFFFF;
     flex-grow: 1;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
     box-sizing: border-box;
     width: 70%;
 }
 
-.image{
-    padding-top: 40px;
-    width: 100%;
-    height: 200px;
+.image {
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F3A52;
-    padding-bottom: 40px;
 }
 
-.image img{
-    height: 200px;
-    width: 200px;
+.image img {
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     background-color: #1F3A52;
 }
 
-
-.h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.35em;
-  color: #FFFFFF;
-  font-size: 24px;
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
 }
 
-hr{
+hr {
     border: none;
     height: 1.5px;
     background-color: white;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
-.contacts img{
-    height: 15px;
-    width: 15px;
+.contacts img {
+    height: 12px;
+    width: 12px;
     color: white;
 }
 
-.contacts{
-    margin-top: 20px;
+.contacts {
+    margin-top: 12px;
     display: flex;
     align-items: baseline;
-    gap: 10px;
+    gap: 8px;
 }
 
-.last{
-    margin-bottom: 50px;
+.last {
+    margin-bottom: 40px;
 }
 
-.font1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+.font1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
-.taas{
+.taas {
     align-items: flex-start;
 }
 
-.educations{
-    margin-top: 20px;
-    margin-bottom:50px;
+.educations {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
-.educations .h2{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 10px;
+.educations .h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 6px;
     font-weight: 550;
-    font-size: 15px;
+    font-size: 11px;
 }
 
-.ngan{
-    height: 280px;
+.ngan {
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.ngan p{
-    font-size: 50px;
+.ngan p {
+    font-size: 35px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     color: #1F3A52;
@@ -140,61 +133,56 @@ hr{
     color: #1F3A52;
 }
 
-.right hr{
+.right hr {
     background-color: #1F3A52;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
-.right .font1{
+.right .font1 {
     line-height: 1.5;
     text-align: justify;
 }
 
-.right .desc{
-    margin-bottom: 40px;
+.right .desc {
+    margin-bottom: 25px;
 }
 
-.project-title{
+.project-title {
     display: flex;
     justify-content: space-between;
 }
 
-.project-name{
-    font-size: 17px;
+.project-name {
+    font-size: 13px;
     font-weight: bold;
 }
 
-.skillset{
+.skillset {
     display: flex;
     flex-direction: row;
-    align-items:baseline;
+    align-items: baseline;
     row-gap: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
-.skilltitle{
-    width: 300px;
+.skilltitle {
+    width: 220px;
 }
 
-.btn{
-
+.btn {
     position: relative;
-    padding: 10px 22px;
+    padding: 8px 18px;
     background: #1F3A52;
     color: white;
     border-radius: 6px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     border: none;
     margin-bottom: 30px;
 }
 
-.space{
-    margin-bottom: 30px;
-}
-
-.last{
-    margin-bottom: 100px;
+.space {
+    margin-bottom: 20px;
 }
 
 .timeline {
@@ -203,7 +191,6 @@ hr{
     padding-left: 40px;
 }
 
-/* Vertical line */
 .timeline::before {
     content: "";
     position: absolute;
@@ -214,14 +201,13 @@ hr{
     background: #1F3A52;
 }
 
-/* Each item */
 .timeline-item {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
 }
 
 .experienceDesc {
@@ -231,68 +217,54 @@ hr{
 }
 
 .experienceDesc h3 {
-    margin: 2px 0; /* Tighten margins to keep the block compact for centering */
+    margin: 2px 0;
     font-family: 'Montserrat', sans-serif;
     color: #1F3A52;
+    font-size: 13px;
 }
 
 .experienceDesc p {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     color: #333;
 }
 
 .date {
-    font-size: 14px;
+    font-size: 11px;
     color: #1F3A52;
     font-weight: bold;
     margin-bottom: 2px;
 }
 
-/* Styling the logo specifically */
 .logo {
-    height: 50px;      /* Adjust based on your preference */
-    width: auto;       /* Maintains aspect ratio */
-    flex-shrink: 0;    /* Prevents the logo from being squeezed */
+    height: 36px;
+    width: auto;
+    flex-shrink: 0;
 }
 
-
-/* Circle */
 .timeline-item::before {
     content: "";
     position: absolute;
     left: -37px;
     top: 5px;
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     background: #1F3A52;
     border-radius: 50%;
 }
 
-/* Text styling */
-.date {
-    color: #1F3A52;
-    font-weight: bold;
-}
-
-.timeline-item h3 {
-    margin: 5px 0;
-
-    
-}
-
-.lexmark{
-    height: 90px;
-}
-
-.google{
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.apple{
+.lexmark {
     height: 60px;
-    margin-left: 15px;
-    margin-right: 15px;
+}
+
+.google {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.apple {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
